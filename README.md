@@ -4,7 +4,9 @@ PHP script that scans for a period of time the queries that are executed, showin
 
 ## Instructions
 
-You can use this script by running it from a browser or from the command line
+Configure the file to connect to your database.
+
+You can use this script by running it from a browser or from the command line.
 
 ```shell
 php ./queryscan.php
