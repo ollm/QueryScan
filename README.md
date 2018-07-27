@@ -1,5 +1,5 @@
 ## Description
-PHP script that scans for a period of time the queries that are executed, showing graphically the results, can be used to detect slow queries, that produce a blockage or simply to optimize.
+PHP script that scans for a period of time the queries that are executed (MySQL, MariaDB), showing graphically the results, can be used to detect slow queries, that produce a blockage or simply to optimize.
 
 
 ## Instructions
