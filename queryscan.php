@@ -89,7 +89,7 @@ if(!$cli)
 	<?php
 		if($cliOnly) {
 	?>
-		<span style="color: red;">The "CGI only" mode is activated, you can not run a scan or see the last scan, you can only see the scans that you upload from the form, you can disable "asdasd" mode by editing this file or you can use CLI instead (Command line)</span>
+		<span style="color: red;">The "only CLI" mode is activated, you can not run a scan or see the last scan, you can only see the scans that you upload from the form, you can disable "only CLI" mode by editing this file or you can use CLI instead (Command line)</span>
 		<br><br>
 	<?php
 		}
