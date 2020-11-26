@@ -645,7 +645,7 @@ if(!empty($queries) && !$cli)
 
 							foreach($q['executions'] as $e)
 							{
-								$left = $e['start'] - $row['start'];
+								$left = ($e['start'] - $row['start']) / $onePixelEqualsSeconds;
 
 								$duration = $e['end'] - $e['start'];
 								$width = $duration / $onePixelEqualsSeconds;
