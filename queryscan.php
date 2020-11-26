@@ -10,7 +10,7 @@ $dbPass = '';
 
 // Config
 $loadFrom = './queryscan.json.gz'; // location of the file to load, it is only necessary if you want to see the data that was previously saved in a file.
-$saveIn = './queryscan.json.gz'; // Location of the file to save, it is only necessary if you want to save the result or you are executing the script from the command line.
+$saveIn = './queryscan-'.bin2hex(random_bytes(8)).'.json.gz'; // Location of the file to save, it is only necessary if you want to save the result or you are executing the script from the command line.
 $scanDuration = 60; // Scan duration in seconds
 $scanInterval = 50; // Time between query scans in milliseconds
 $onePixelEquals = 500; // Equivalence in milliseconds of a pixel
