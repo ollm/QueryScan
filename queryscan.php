@@ -12,9 +12,9 @@ $dbPass = '';
 $loadFrom = './queryscan.json.gz'; // location of the file to load, it is only necessary if you want to see the data that was previously saved in a file.
 $saveIn = './queryscan.json.gz'; // Location of the file to save, it is only necessary if you want to save the result or you are executing the script from the command line.
 $scanDuration = 60; // Scan duration in seconds
-$scanInterval = 100; // Time between query scans in milliseconds
+$scanInterval = 50; // Time between query scans in milliseconds
 $onePixelEquals = 500; // Equivalence in milliseconds of a pixel
-$highlightQueriesLonger = 100; // Highlights queries that last longer than the specified milliseconds
+$highlightQueriesLonger = 200; // Highlights queries that last longer than the specified milliseconds
 $trimQueries = 1000; // Queries will be cut if they exceed this number of characters
 $cliOnly = true; // It will only be possible to execute the script from CLI, from the browser you can only see the results loaded from the form.
 
